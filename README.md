@@ -1,6 +1,6 @@
 # HackRx 6.0 - Intelligent Document Q&A Bot
 
-This project is a submission for the HackRx 6.0 hackathon. It is an intelligent system that uses Large Language Models (LLMs) to answer natural language questions based on a large unstructured document, in simple it user RAG to process the query.
+This project is an intelligent system that uses Large Language Models (LLMs) to answer natural language questions based on a large unstructured document, in simple it user RAG to process the query.
 
 ## 🚀 Features
 - **Natural Language Understanding:** Ask questions in plain English.
