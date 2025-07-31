@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+langflow-python
+python-dotenv
+# Add other libraries your flow specifically needs, for example:
+# google-generativeai
+# langchain-google-genai
+# faiss-cpu
+# pypdf
