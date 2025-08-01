@@ -64,7 +64,7 @@
         "className": "",
         "data": {
           "sourceHandle": {
-            "dataType": "OpenAIEmbeddings",
+            "dataType": "CustomOpenAIEmbeddings",
             "id": "OpenAIEmbeddings-YThOJ",
             "name": "embeddings",
             "output_types": [
@@ -80,10 +80,10 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-OpenAIEmbeddings-YThOJ{œdataTypeœ:œOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-YThOJœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-AstraDB-cC6vF{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-cC6vFœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-OpenAIEmbeddings-YThOJ{œdataTypeœ:œCustomOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-YThOJœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-AstraDB-cC6vF{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-cC6vFœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "OpenAIEmbeddings-YThOJ",
-        "sourceHandle": "{œdataTypeœ:œOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-YThOJœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "sourceHandle": "{œdataTypeœ:œCustomOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-YThOJœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
         "target": "AstraDB-cC6vF",
         "targetHandle": "{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-cC6vFœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
       },
@@ -92,7 +92,7 @@
         "className": "",
         "data": {
           "sourceHandle": {
-            "dataType": "OpenAIEmbeddings",
+            "dataType": "CustomOpenAIEmbeddings",
             "id": "OpenAIEmbeddings-TLefa",
             "name": "embeddings",
             "output_types": [
@@ -108,10 +108,10 @@
             "type": "other"
           }
         },
-        "id": "reactflow__edge-OpenAIEmbeddings-TLefa{œdataTypeœ:œOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-TLefaœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-AstraDB-fRR57{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-fRR57œ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "id": "reactflow__edge-OpenAIEmbeddings-TLefa{œdataTypeœ:œCustomOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-TLefaœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-AstraDB-fRR57{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-fRR57œ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
         "selected": false,
         "source": "OpenAIEmbeddings-TLefa",
-        "sourceHandle": "{œdataTypeœ:œOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-TLefaœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "sourceHandle": "{œdataTypeœ:œCustomOpenAIEmbeddingsœ,œidœ:œOpenAIEmbeddings-TLefaœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
         "target": "AstraDB-fRR57",
         "targetHandle": "{œfieldNameœ:œembedding_modelœ,œidœ:œAstraDB-fRR57œ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
       },
@@ -200,36 +200,6 @@
         "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-q6Aq4œ,œnameœ:œdataframeœ,œoutput_typesœ:[œDataFrameœ]}",
         "target": "AstraDB-cC6vF",
         "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œAstraDB-cC6vFœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
-      },
-      {
-        "animated": false,
-        "className": "",
-        "data": {
-          "sourceHandle": {
-            "dataType": "File",
-            "id": "File-gCynZ",
-            "name": "message",
-            "output_types": [
-              "Message"
-            ]
-          },
-          "targetHandle": {
-            "fieldName": "data_inputs",
-            "id": "SplitText-q6Aq4",
-            "inputTypes": [
-              "Data",
-              "DataFrame",
-              "Message"
-            ],
-            "type": "other"
-          }
-        },
-        "id": "reactflow__edge-File-gCynZ{œdataTypeœ:œFileœ,œidœ:œFile-gCynZœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-SplitText-q6Aq4{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-q6Aq4œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
-        "selected": false,
-        "source": "File-gCynZ",
-        "sourceHandle": "{œdataTypeœ:œFileœ,œidœ:œFile-gCynZœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
-        "target": "SplitText-q6Aq4",
-        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-q6Aq4œ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
       },
       {
         "animated": false,
@@ -957,8 +927,8 @@
           "width": 320
         },
         "position": {
-          "x": 1686.4840023807299,
-          "y": 1310.3341692929632
+          "x": 1697.131473075692,
+          "y": 1312.4636634319556
         },
         "positionAbsolute": {
           "x": 1683.4543896546102,
@@ -967,43 +937,6 @@
         "selected": false,
         "type": "genericNode",
         "width": 320
-      },
-      {
-        "data": {
-          "id": "note-i25U8",
-          "node": {
-            "description": "## 🐕 2. Retriever Flow\n\nThis flow answers your questions with contextual data retrieved from your vector database.\n\nOpen the **Playground** and ask, \n\n```\nWhat is this document about?\n```\n",
-            "display_name": "",
-            "documentation": "",
-            "template": {
-              "backgroundColor": "neutral"
-            }
-          },
-          "type": "note"
-        },
-        "dragging": false,
-        "height": 324,
-        "id": "note-i25U8",
-        "measured": {
-          "height": 324,
-          "width": 324
-        },
-        "position": {
-          "x": 374.388314931542,
-          "y": 486.18094072679895
-        },
-        "positionAbsolute": {
-          "x": 374.388314931542,
-          "y": 486.18094072679895
-        },
-        "resizing": false,
-        "selected": false,
-        "style": {
-          "height": 324,
-          "width": 324
-        },
-        "type": "noteNode",
-        "width": 324
       },
       {
         "data": {
@@ -1357,7 +1290,7 @@
             "conditional_paths": [],
             "custom_fields": {},
             "description": "Generate embeddings using OpenAI models.",
-            "display_name": "OpenAI Embeddings",
+            "display_name": "CustomOpenAIEmbeddings",
             "documentation": "",
             "edited": false,
             "field_order": [
@@ -1602,7 +1535,9 @@
                 "title_case": false,
                 "trace_as_input": true,
                 "type": "dict",
-                "value": {}
+                "value": {
+                  "user": "{\"user\": \"hackathon-test-user\"}"
+                }
               },
               "openai_api_base": {
                 "_input_type": "MessageTextInput",
@@ -1821,7 +1756,7 @@
             "tool_mode": false
           },
           "selected_output": "embeddings",
-          "type": "OpenAIEmbeddings"
+          "type": "CustomOpenAIEmbeddings"
         },
         "dragging": false,
         "height": 320,
@@ -1844,43 +1779,6 @@
       },
       {
         "data": {
-          "id": "note-Oq2po",
-          "node": {
-            "description": "## 📚 1. Load Data Flow\n\nRun this first! Load data from a local file and embed it into the vector database.\n\nSelect a Database and a Collection, or create new ones. \n\nClick  **Run component** on the **Astra DB** component to load your data.\n\n\n### Next steps:\n Experiment by changing the prompt and the contextual data to see how the retrieval flow's responses change.",
-            "display_name": "",
-            "documentation": "",
-            "template": {
-              "backgroundColor": "neutral"
-            }
-          },
-          "type": "note"
-        },
-        "dragging": false,
-        "height": 460,
-        "id": "note-Oq2po",
-        "measured": {
-          "height": 460,
-          "width": 340
-        },
-        "position": {
-          "x": 913.9906853654297,
-          "y": 1523.8879126168624
-        },
-        "positionAbsolute": {
-          "x": 955.3277857006676,
-          "y": 1552.171191793604
-        },
-        "resizing": false,
-        "selected": false,
-        "style": {
-          "height": 324,
-          "width": 324
-        },
-        "type": "noteNode",
-        "width": 340
-      },
-      {
-        "data": {
           "id": "OpenAIEmbeddings-YThOJ",
           "node": {
             "base_classes": [
@@ -1890,7 +1788,7 @@
             "conditional_paths": [],
             "custom_fields": {},
             "description": "Generate embeddings using OpenAI models.",
-            "display_name": "OpenAI Embeddings",
+            "display_name": "CustomOpenAIEmbeddings",
             "documentation": "",
             "edited": false,
             "field_order": [
@@ -2135,7 +2033,9 @@
                 "title_case": false,
                 "trace_as_input": true,
                 "type": "dict",
-                "value": {}
+                "value": {
+                  "user": "{\"user\": \"hackathon-test-user\"}"
+                }
               },
               "openai_api_base": {
                 "_input_type": "MessageTextInput",
@@ -2354,7 +2254,7 @@
             "tool_mode": false
           },
           "selected_output": "embeddings",
-          "type": "OpenAIEmbeddings"
+          "type": "CustomOpenAIEmbeddings"
         },
         "dragging": false,
         "height": 320,
@@ -2371,7 +2271,7 @@
           "x": 1690.9220896443658,
           "y": 1866.483269483266
         },
-        "selected": false,
+        "selected": true,
         "type": "genericNode",
         "width": 320
       },
@@ -2690,7 +2590,7 @@
             ],
             "frozen": false,
             "icon": "AstraDB",
-            "last_updated": "2025-07-30T05:03:32.548Z",
+            "last_updated": "2025-08-01T10:53:14.831Z",
             "legacy": false,
             "lf_version": "1.5.0.post1",
             "metadata": {},
@@ -3102,7 +3002,7 @@
                 "options_metadata": [
                   {
                     "api_endpoint": "https://b0e3bae9-9f77-4173-aeac-c9028c97f7ec-us-east-2.apps.astra.datastax.com",
-                    "collections": 0,
+                    "collections": 1,
                     "keyspaces": [
                       "default_keyspace"
                     ],
@@ -3504,7 +3404,7 @@
             ],
             "frozen": false,
             "icon": "AstraDB",
-            "last_updated": "2025-07-30T04:55:11.572Z",
+            "last_updated": "2025-08-01T10:53:14.837Z",
             "legacy": false,
             "lf_version": "1.5.0.post1",
             "metadata": {},
@@ -3919,7 +3819,7 @@
                 "options_metadata": [
                   {
                     "api_endpoint": "https://b0e3bae9-9f77-4173-aeac-c9028c97f7ec-us-east-2.apps.astra.datastax.com",
-                    "collections": 0,
+                    "collections": 1,
                     "keyspaces": [
                       "default_keyspace"
                     ],
@@ -4306,7 +4206,7 @@
             ],
             "frozen": false,
             "icon": "file-text",
-            "last_updated": "2025-07-30T04:24:31.549Z",
+            "last_updated": "2025-08-01T10:53:14.861Z",
             "legacy": false,
             "lf_version": "1.5.0.post1",
             "metadata": {},
@@ -4316,32 +4216,17 @@
               {
                 "allows_loop": false,
                 "cache": true,
-                "display_name": "Raw Content",
-                "group_outputs": false,
-                "method": "load_files_message",
-                "name": "message",
-                "options": null,
-                "required_inputs": null,
-                "selected": "Message",
-                "tool_mode": true,
-                "types": [
-                  "Message"
-                ],
-                "value": "__UNDEFINED__"
-              },
-              {
-                "allows_loop": false,
-                "cache": true,
-                "display_name": "File Path",
+                "display_name": "Files",
                 "group_outputs": false,
                 "hidden": null,
-                "method": "load_files_path",
-                "name": "path",
+                "method": "load_files",
+                "name": "dataframe",
                 "options": null,
                 "required_inputs": null,
+                "selected": "DataFrame",
                 "tool_mode": true,
                 "types": [
-                  "Message"
+                  "DataFrame"
                 ],
                 "value": "__UNDEFINED__"
               }
@@ -4491,7 +4376,11 @@
                   "gz"
                 ],
                 "file_path": [
-                  "a1075fcc-1027-40be-958b-899ab3f3b661/Bajaj doc 1.pdf"
+                  "a1075fcc-1027-40be-958b-899ab3f3b661/Bajaj doc 1.pdf",
+                  "a1075fcc-1027-40be-958b-899ab3f3b661/Bajaj doc 5.pdf",
+                  "a1075fcc-1027-40be-958b-899ab3f3b661/Bajaj doc 4.pdf",
+                  "a1075fcc-1027-40be-958b-899ab3f3b661/Bajaj doc 3.pdf",
+                  "a1075fcc-1027-40be-958b-899ab3f3b661/Bajaj doc 2.pdf"
                 ],
                 "info": "Supported file extensions: txt, md, mdx, csv, json, yaml, yml, xml, html, htm, pdf, docx, py, sh, sql, js, ts, tsx; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
                 "list": true,
@@ -4572,7 +4461,7 @@
         "dragging": false,
         "id": "File-gCynZ",
         "measured": {
-          "height": 233,
+          "height": 365,
           "width": 320
         },
         "position": {
@@ -4608,7 +4497,7 @@
             ],
             "frozen": false,
             "icon": "brain-circuit",
-            "last_updated": "2025-07-30T05:02:58.110Z",
+            "last_updated": "2025-08-01T10:53:14.864Z",
             "legacy": false,
             "lf_version": "1.5.0.post1",
             "metadata": {
@@ -4874,14 +4763,14 @@
           "x": 2354.7612483129965,
           "y": 633.8261067248878
         },
-        "selected": true,
+        "selected": false,
         "type": "genericNode"
       }
     ],
     "viewport": {
-      "x": -754.6779613924975,
-      "y": -206.80818714092197,
-      "zoom": 0.5433842485300399
+      "x": -674.9562867409776,
+      "y": -1080.1960996773387,
+      "zoom": 0.6796305410132684
     }
   },
   "description": "Load your data for chat context with Retrieval Augmented Generation.",

@@ -1,6 +1,6 @@
 fastapi
 uvicorn[standard]
-langflow-python
+langflow
 python-dotenv
 # Add other libraries your flow specifically needs, for example:
 # google-generativeai
